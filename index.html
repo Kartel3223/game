@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>For The Heroes</title>
+</head>
+<body>
+
+
+<!-- Dependency definitions -->
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+<script src="lib/perlin.js"></script>
+<script>
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+        apiKey: "AIzaSyANCjfSBhAWdLHVlZzy2UxbjK6YkK_xgxE",
+        authDomain: "fortheheroes-dcd06.firebaseapp.com",
+        databaseURL: "fortheheroes-dcd06-default-rtdb.europe-west1.firebasedatabase.app",
+        projectId: "fortheheroes-dcd06",
+        storageBucket: "fortheheroes-dcd06.appspot.com",
+        messagingSenderId: "412663129020",
+        appId: "1:412663129020:web:d36363a6300b3bc3c541b9"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const database = firebase.database();
+</script>
+
+<!-- Hero Engine definitions -->
+<script src="HeroEngine/Constants.js"></script>
+<script src="HeroEngine/Utils.js"></script>
+<script src="HeroEngine/GUI.js"></script>
+<script src="HeroEngine/Network.js"></script>
+<script src="HeroEngine/Model.js"></script>
+<!-- Game definition -->
+<div id="my_game"  style="margin: auto; border: 1px solid; width: 1024px; height: 800px;"></div>
+<script src="game.js" type="module"></script>
+
+</body>
+</html>

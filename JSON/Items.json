@@ -1,0 +1,51 @@
+[
+  {
+    "ID": 0,
+    "name": "Щит",
+    "type": "Armour",
+    "value": "20",
+    "sprite": "assets/sprites/item_shield.png"
+  },
+  {
+    "ID": 1,
+    "name": "Меч",
+    "type": "Weapon",
+    "value": "50",
+    "sprite": "assets/sprites/item_sword.png"
+  },
+  {
+    "ID": 2,
+    "name": "Леч. зелье",
+    "type": "HPHeal",
+    "value": "30",
+    "sprite": "assets/sprites/item_hp.png"
+  },
+  {
+    "ID": 3,
+    "name": "Зелье маны",
+    "type": "ManaHeal",
+    "value": "30",
+    "sprite": "assets/sprites/item_mana.png"
+  },
+  {
+    "ID": 4,
+    "name": "Файрбол",
+    "type": "Magic",
+    "value": "20",
+    "sprite": "assets/sprites/item_scroll.png"
+  },
+  {
+    "ID": 5,
+    "name": "Лечение",
+    "type": "Magic",
+    "value": "25",
+    "sprite": "assets/sprites/item_scroll.png"
+  },
+  {
+    "ID": 6,
+    "name": "Создание оружия",
+    "type": "Magic",
+    "value": "50",
+    "sprite": "assets/sprites/item_scroll.png"
+  }
+]
